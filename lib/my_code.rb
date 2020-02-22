@@ -71,7 +71,6 @@ def reduce_to_any_true(source_array)
    if else !source_array[index]
       result = false
     else
-      index += 1
     end
       index += 1
   end
