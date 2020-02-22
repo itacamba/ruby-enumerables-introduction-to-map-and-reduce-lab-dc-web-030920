@@ -53,10 +53,23 @@ end
 def reduce_to_all_true(source_array)
   index = 0
   while index < source_array.length do
-    if !!source_array[index]
+    if !!source_array[index]   # this asks if the value exists and it's not nil then result is true
       result = true
     else
       result = false
+    end
+      index += 1
+  end
+  result
+end
+
+def reduce_to_any_true(source_array)
+  index = 0
+  while index < source_array.length do
+    if !!source_array[index]
+      result = true
+    else
+      result = true
     end
       index += 1
   end
