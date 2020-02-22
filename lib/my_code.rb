@@ -10,7 +10,7 @@ def map_to_negativize(source_array)
 end
 
 
- def map_to_no_change(source_array) 
+ def map_to_no_change(source_array)
    index = 0
    my_array = []
    while index < source_array.length do
@@ -18,5 +18,5 @@ end
      index += 1
    end
    my_array
-   
+
  end
