@@ -66,7 +66,7 @@ end
 def reduce_to_any_true(source_array)
   index = 0
   while index < source_array.length do
-    if !!source_array[index]
+    if !!source_array[index] || !source_array[index]
       result = true
     else
       result = true
