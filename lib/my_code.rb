@@ -18,5 +18,8 @@ end
      index += 1
    end
    my_array
-
  end
+
+def map_to_double(source_array)
+  
+end
