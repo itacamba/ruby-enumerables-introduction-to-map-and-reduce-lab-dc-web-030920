@@ -21,5 +21,5 @@ end
  end
 
 def map_to_double(source_array)
-  
+
 end
