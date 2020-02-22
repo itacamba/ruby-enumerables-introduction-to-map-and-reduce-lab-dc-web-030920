@@ -49,3 +49,13 @@ def reduce_to_total(source_array, starting_point = 0)
   end
   sum
 end
+
+def reduce_to_all_true(source_array)
+  index = 0
+  result = boolean
+  while index < source_array.length do
+    if !!source_array[index]
+      result = true
+  end
+  result
+end
